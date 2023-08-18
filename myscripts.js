@@ -76,3 +76,6 @@ function searchWikipedia(event) {
 }
 
 searchInputEl.addEventListener("keydown", searchWikipedia);
+let b=document.createElement("button");
+b.textContent="Hello";
+searchResultsEl.appendChild(b);
